@@ -24,6 +24,11 @@ body{
   height: 100vh;
 }*/
 
+/* 
+Preferi deixar assim por não saber usar media query ainda. 
+
+I preferred to leave it at that because I don't know how to use media query yet.
+*/
 main{
   background: url('images/background.svg');
   width: 375px;
