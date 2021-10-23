@@ -17,6 +17,13 @@ body{
   place-items: center;
 }
 
+/*main{
+  background: url('images/background.svg') no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
+}*/
+
 main{
   background: url('images/background.svg');
   width: 375px;
@@ -51,6 +58,19 @@ main{
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
+.rotate{
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 h1{
   font-size: 1.5rem;
   margin-top: 1.5rem;
@@ -81,5 +101,10 @@ ul{
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+ul li:hover{
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.493);
+  transition: 0.5s;
 }
 
