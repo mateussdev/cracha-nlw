@@ -3,7 +3,7 @@ const linksSocialMedia = {
   youtube: 'cursoemvideo',
   instagram: 'mateuss8_',
   facebook: 'profile.php?id=100006940689788',
-  twitter: 'mateusfps'
+  twitter: 'mateusb_silva'
 }
 
 function changeSocialMediaLinks() {
