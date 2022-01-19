@@ -1,7 +1,7 @@
 const linksSocialMedia = {
   github: 'mateussdev',
   youtube: 'cursoemvideo',
-  instagram: 'mateuss8_',
+  instagram: 'mateuss.bsilva',
   facebook: 'profile.php?id=100006940689788',
   twitter: 'mateusb_silva'
 }
