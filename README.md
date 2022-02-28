@@ -14,7 +14,7 @@ Here are the technologies used in this project.
 
 * Github
 
-## When you access, you will see the Home page <3
+## When you access, you will see this page 
 
 ![Homepage image](https://github.com/mateussdev/cracha-nlw/blob/main/images/readme/home-page.png)
 
